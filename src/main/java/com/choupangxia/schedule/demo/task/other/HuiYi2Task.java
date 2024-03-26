@@ -14,15 +14,13 @@ import java.util.*;
 @Slf4j
 public class HuiYi2Task {
 
-
-
     public static void main(String[] args) {
         HuiYi2Task HuiYiTask = new HuiYi2Task();
         HuiYiTask.qiangHuiyishi();
     }
 
 
-    @Scheduled(cron = "01 00 07 * * ?")
+    @Scheduled(cron = "01 00 00 * * ?")
     public   void qiangHuiyishi(){
 
         HuiTools huiTools = new HuiTools();

@@ -75,10 +75,10 @@ public  interface LeiConfig {
 
     //所有会议室 排除会议室1  当room中的会议室都被占用时  会从rooms中循环抢占
    List<String> rooms = Arrays.asList(
-            "7e6abb953d0f0a5b7aed3da1eecbf0602210717f845d69a6",
-           "ecab20f3482f79d39909c4bde72ec9bc2210717f845d69a6",
-           "00e6bc6177b7cd2b3106928dde9c65402210717f845d69a6"
 
+           "ecab20f3482f79d39909c4bde72ec9bc2210717f845d69a6",
+           "2492fa14103702069f5b373a3a9081f82210717f845d69a6",
+            "3aa78455c493cb653bd7b68489097d4d2210717f845d69a6"
     );
 
 
