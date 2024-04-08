@@ -26,12 +26,15 @@ public  interface Config3 {
     //2. 抢占几天后的   会议室1,2,3,5,6 默认开放7天后的    会议室4 默认开放14天后的
     //注意部分人员开了特殊权限 不受会议室预定时间限制  像 李雪 、闫强强、陈嘉慧、奚晓燕等等
     // 本程序只具有普通权限 无法预定规定时间之外的会议室
-    int day = 7;
+    int day = 14;
 
 
     //3. 强占哪个时间段
     List<List<String>> times= Arrays.asList(
             Arrays.asList("09:30:00","11:30:00")
+            ,Arrays.asList("13:30:00","15:30:00")
+            ,Arrays.asList("15:30:00","17:30:00")
+
     );
 
 
@@ -67,11 +70,18 @@ public  interface Config3 {
      *     "roomId": "2492fa14103702069f5b373a3a9081f82210717f845d69a6",
      *             "roomName": "金砖培训教室"
      *
+     *           "roomId": "c02adade7999b4e00a4a9e2e6c6475882210717f845d69a6",
+     *             "roomName": "金砖会议室（四）"
      */
 
     //4.  时间段对应的会议室  对应times 数据的下标
     List<String> room = Arrays.asList(
-            "3aa78455c493cb653bd7b68489097d4d2210717f845d69a6");
+
+            "c02adade7999b4e00a4a9e2e6c6475882210717f845d69a6",
+            "c02adade7999b4e00a4a9e2e6c6475882210717f845d69a6",
+            "c02adade7999b4e00a4a9e2e6c6475882210717f845d69a6"
+
+    );
 
 
 

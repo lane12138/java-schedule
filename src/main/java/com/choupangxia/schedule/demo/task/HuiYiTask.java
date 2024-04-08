@@ -20,7 +20,7 @@ public class HuiYiTask {
     }
 
 
-    @Scheduled(cron = "01 00 07 * * ?")
+/*    @Scheduled(cron = "01 00 07 * * ?")*/
     public   void qiangHuiyishi(){
 
         HuiTools huiTools = new HuiTools();
